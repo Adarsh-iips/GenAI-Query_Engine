@@ -99,3 +99,24 @@ Checks if the query is feasible.
 
 ## Contact
 Built by Adarsh Sharma. Reach out for questions or feedback!
+
+For testing:
+Use curl Commands in Command Prompt
+
+1. /query
+curl -X POST https://genai-queryengine-production.up.railway.app/query ^
+ -H "Content-Type: application/json" ^
+ -H "X-API-Key: my-secret-key" ^
+ -d "{\"query\":\"Show me top customers\"}"
+
+2. /explain
+curl -X POST https://genai-queryengine-production.up.railway.app/explain ^
+ -H "Content-Type: application/json" ^
+ -H "X-API-Key: my-secret-key" ^
+ -d "{\"query\":\"What is the sales revenue last quarter\"}"
+
+3. /validate
+curl -X POST https://genai-queryengine-production.up.railway.app/validate ^
+ -H "Content-Type: application/json" ^
+ -H "X-API-Key: my-secret-key" ^
+ -d "{\"query\":\"List sales data\"}"
