@@ -122,6 +122,3 @@ curl -X POST https://genai-queryengine-production.up.railway.app/validate ^
  -H "Content-Type: application/json" ^
  -H "X-API-Key: my-secret-key" ^
  -d "{\"query\":\"List sales data\"}"
-
-
-![Image](https://github.com/user-attachments/assets/ed74750f-37a5-44b0-af3d-19357715059d)
