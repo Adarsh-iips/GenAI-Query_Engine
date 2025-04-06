@@ -1,3 +1,4 @@
+----->URL: https://genai-queryengine-production.up.railway.app<--------
 Gen AI Query Engine - FastAPI Backend
 A lightweight backend simulation of a Gen AI-powered analytics tool that allows users to input natural language queries and receive pseudo-SQL translations and simulated insights. Built using FastAPI and in-memory mock data. 
 1. Accepts natural language queries
