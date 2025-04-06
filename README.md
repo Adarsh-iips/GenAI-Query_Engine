@@ -123,4 +123,5 @@ curl -X POST https://genai-queryengine-production.up.railway.app/validate ^
  -H "X-API-Key: my-secret-key" ^
  -d "{\"query\":\"List sales data\"}"
 
-![Screenshot 2025-04-06 135555](https://github.com/user-attachments/assets/34b7f55e-b41d-454c-8665-9ec2f00942b7)
+
+![Image](https://github.com/user-attachments/assets/ed74750f-37a5-44b0-af3d-19357715059d)
